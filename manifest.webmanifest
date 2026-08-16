@@ -1,0 +1,13 @@
+{
+  "name": "ScoreKrew — compteur de jeux",
+  "short_name": "ScoreKrew",
+  "description": "Tous vos jeux. Un seul compteur.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4efe6",
+  "theme_color": "#17130f",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
