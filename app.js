@@ -149,6 +149,5 @@
     state.history.unshift(snapshot); state.history=state.history.slice(0,100); state.screen='result'; save(); render();
   }
 
-  if ('serviceWorker' in navigator) window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
   render();
 })();
