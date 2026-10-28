@@ -1,6 +1,6 @@
 // Network-first: always serve fresh files when online, fall back to the cache offline.
-// Bump CACHE when the asset list changes; old caches (incl. scorekrew-v1) are purged on activate.
-const CACHE = 'flip7-v1';
+// Bump CACHE when the asset list changes; old caches (incl. scorekrew-v1, flip7-v1) are purged on activate.
+const CACHE = 'scorekrew-v2';
 const ASSETS = [
   './',
   './index.html',

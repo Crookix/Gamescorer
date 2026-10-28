@@ -41,7 +41,7 @@
   function render() {
     const root = document.getElementById('app');
     const body = state.screen === 'home' ? home() : state.screen === 'players' ? playersScreen() : state.screen === 'game' ? gameScreen() : state.screen === 'result' ? resultScreen() : historyScreen();
-    root.innerHTML = `<main class="shell"><div class="topbar"><div class="brand"><div class="logo">7</div>Flip 7</div><button class="icon-btn" data-action="history">Historique</button></div>${body}</main>`;
+    root.innerHTML = `<main class="shell"><div class="topbar"><div class="brand"><div class="logo">S</div>ScoreKrew</div><button class="icon-btn" data-action="history">Historique</button></div>${body}</main>`;
     bind();
   }
 

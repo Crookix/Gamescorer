@@ -1,6 +1,6 @@
-# Flip 7
+# ScoreKrew
 
-Une PWA mobile-first de comptage de scores pour Flip 7 (et quelques autres jeux).
+Une PWA mobile-first de comptage de scores multi-jeux.
 
 ## Jeux inclus
 - Flip 7
